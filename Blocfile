@@ -2,7 +2,6 @@
 
 dev {
     % cd app && npm run dev
-    % cd ui && npm run dev
 }
 
 
@@ -13,6 +12,6 @@ install {
 
 
 update:ui {
-    % cd ui && npm run build
-    % cd app && npm i
+    $ cd ui && npm run build
+    $ cd app && npm i
 }
