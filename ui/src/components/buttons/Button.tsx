@@ -1,12 +1,12 @@
-import React from "react";
 import clsx from "clsx";
+import React from "react";
 
 type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   className?: string;
   children?: React.ReactNode;
 };
 
-const Button: React.FC<ButtonProps> = ({className, children, ...rest}) => {
+const Button: React.FC<ButtonProps> = ({ className, children, ...rest }) => {
   return (
     <button
       className={clsx(
@@ -26,4 +26,4 @@ const Button: React.FC<ButtonProps> = ({className, children, ...rest}) => {
   );
 };
 
-export default Button;
+export { Button };
