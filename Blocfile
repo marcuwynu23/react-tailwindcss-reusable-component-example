@@ -1,0 +1,12 @@
+
+
+dev {
+    % cd app && npm run dev
+    % cd ui && npm run dev
+}
+
+
+install {
+    % cd app && npm i
+    % cd ui && npm i
+}
