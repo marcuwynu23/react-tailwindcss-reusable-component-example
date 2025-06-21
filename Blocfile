@@ -10,3 +10,9 @@ install {
     % cd app && npm i
     % cd ui && npm i
 }
+
+
+update:ui {
+    % cd ui && npm run build
+    % cd app && npm i
+}

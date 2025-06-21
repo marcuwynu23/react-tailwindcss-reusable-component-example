@@ -15,6 +15,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build && cp src/index.css dist/index.css",
     "lint": "eslint .",
+    "watch": "vite build --watch",
     "preview": "vite preview"
   },
   "dependencies": {
